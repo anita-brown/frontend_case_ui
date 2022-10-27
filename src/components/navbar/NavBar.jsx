@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className='flex lg:flex lg:flex-row lg:justify-end lg:items-center lg:gap-4 cursor-pointer pb-4'>
             <ul className='flex lg:gap-2 border-r-2'>
             {navItems.map((item) => (
-                <li className='mr-4 text-gray-500 hover border-transparent pb-1 border-b-4 border:bg-red-800 hover:text-black hover:border-green-500 hover:border-b-2 ease-in-out duration-200'>{item}</li>
+                <li className='mr-4 text-gray-500 hover border-transparent pb-1 border-b-4 hover:text-black hover:border-green-500 hover:border-b-2 ease-in-out duration-200'>{item}</li>
                 
                 ))}
                 </ul>
