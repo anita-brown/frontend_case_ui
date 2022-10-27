@@ -6,15 +6,15 @@ import SectionFour from '../components/sections/SectionFour'
 import SectionFive from '../components/sections/SectionFive'
 
 const MainBody = () => {
-  return (
-    <div>
-          <SectionOne />
-          <SectionTwo/>
-          < SectionThree />
-          <SectionFour />
-          <SectionFive/>
-    </div>
-  )
+    return (
+        <div className='py-[5rem]'>
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+            <SectionFour />
+            <SectionFive />
+        </div>
+    )
 }
 
 export default MainBody

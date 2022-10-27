@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionTwo = () => {
   return (
-    <div>
+    <div className='border-t-[.8px] mt-[5rem]'>
       
     </div>
   )
