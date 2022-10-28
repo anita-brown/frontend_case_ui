@@ -2,6 +2,7 @@ import React from "react";
 import { SlArrowRightCircle } from "react-icons/sl"
 import Card from "../../shared/Card";
 
+
 const SectionThree = () => {
   return (
     <div className="mt-[12rem] lg:flex lg:justify-between">

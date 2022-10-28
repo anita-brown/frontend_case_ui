@@ -1,27 +1,10 @@
 import React from "react";
 import { IoIosArrowDropright } from "react-icons/io";
+import { cardItem } from "../../data/data";
+
 
 const SectionFive = () => {
-  const cardItem = [
-    {
-      image: require("../assets/world.png"),
-      heading: "Scuad for Global Brands",
-      content: "We help global brands accept payments from across Africa.",
-      link: "Learn More",
-    },
-    {
-      image: require("../assets/avatar.png"),
-      heading: "Scuad for Entrepreneurs",
-      content: "From startup to scale up, we can support you at every stage of your businesses growth.",
-      link: "Learn More",
-    },
-    {
-      image: require("../assets/hand.png"),
-      heading: "Scuad for Large Organizations",
-      content: "Paystack helps many of the largest corporate and government organizations in Nigeria get paid quickly and securely.",
-      link: "Learn More",
-    },
-  ];
+
   return (
     <div className="mt-[15rem] lg:flex lg:flex-col lg:gap-[5rem]">
       <div className="lg:flex lg:flex-col lg:gap-4">

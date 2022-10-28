@@ -1,20 +1,7 @@
 import React from 'react'
 import { IoIosCheckmarkCircleOutline } from 'react-icons/io'
+import { data } from '../../data/data'
 
-const data = [
-  {
-    heading: "Quick setup",
-    content: "Begin accepting payments in 15 minutes"
-  },
-  {
-    heading: "Honest pricing",
-    content: "Only pay for successful transactions."
-  },
-  {
-    heading: "All leading payment methods",
-    content: "The best localised experience"
-  },
-]
 
 const SectionTwo = () => {
   return (
@@ -26,9 +13,7 @@ const SectionTwo = () => {
               <i ><IoIosCheckmarkCircleOutline color='blue' size={35} /></i>
               <p><span className='font-bold'>{item.heading}.</span> {item.content}.</p>
             </div>
-
           </>
-
         ))}
       </div>
       <div>
