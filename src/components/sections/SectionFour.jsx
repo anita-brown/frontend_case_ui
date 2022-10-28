@@ -8,20 +8,20 @@ import { list } from '../../data/data'
 const SectionFour = () => {
 
   return (
-    <div className='lg:mt-[15rem] lg:flex lg:gap-16'>
-      <img className='h-[590px] rounded' width={530} src={man_image} alt="pic" />
-      <div className='lg:flex lg:flex-col w-[50%] gap-12'>
+    <div className='lg:mt-[15rem] mt-[10rem] flex flex-col lg:flex lg:flex-row justify-center gap-8 lg:gap-16'>
+      <img className='lg:h-[590px] rounded' width={530} src={man_image} alt="pic" />
+      <div className='lg:flex lg:flex-col lg:w-[50%] gap-12'>
         <div className=' lg:flex lg:flex-col lg:gap-8'>
           <h1 className='lg:text-xl text-orange-600 border-b-[.2rem] border-orange-300 bg-orange-50 w-[6rem]'>Solutions</h1>
           <p className="lg:text-3xl font-bold lg?: leading-8">Better payments, <br /> unlimited opportunities</p>
-          <p className='w-[70%] lg:text-[1rem] leading-8 text-gray-500'>Get faster, more reliable transactions. Higher conversions.
+          <p className='lg:w-[70%] w-[100%] lg:text-[1rem] leading-8 text-gray-500'>Get faster, more reliable transactions. Higher conversions.
             Unbeatable insight and flexibility. So you can delight your
             customers and unlock new revenue streams.</p>
         </div>
-        <div className='grid grid-cols-2 gap-8'>
+        <div className='lg:grid flex flex-col gap-4  lg:grid-cols-2 lg:gap-8 mt-4'>
 
           {list.map((item) => (
-            <div className='lg:flex lg:items-center gap-[1rem]'>
+            <div className='flex lg:flex lg:items-center gap-[1rem]'>
               <i><CgCheckR size={25} color={"#54cb66"} /></i>
               <p>{item}</p>
             </div>

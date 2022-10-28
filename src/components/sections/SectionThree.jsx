@@ -5,8 +5,8 @@ import Card from "../../shared/Card";
 
 const SectionThree = () => {
   return (
-    <div className="mt-[12rem] lg:flex lg:justify-between">
-      <div className="w-[50%] lg:flex lg:gap-4 lg:flex-col">
+    <div className="lg:mt-[12rem] md:mt-[10rem] mt-[8rem] lg:flex lg:justify-between">
+      <div className="lg:w-[50%] flex flex-col w-full gap-2 lg:flex lg:gap-4 lg:flex-col">
         <h2 className="lg:text-xl text-purple-600 border-b-[.2rem] border-purple-300 bg-purple-100 w-20">Features</h2>
         <h1 className="lg:text-3xl font-bold">Create Payment Requests</h1>
         <p className="lg:text-[1rem] leading-8 text-gray-500">Make a simple payment link in 5 seconds. Use our powerful <br /> features to customize your request</p>
