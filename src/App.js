@@ -1,9 +1,14 @@
 import React from 'react';
+import Footer from './components/footer/Footer';
+import NavBar from './components/navbar/NavBar';
+import MainBody from './models/MainBody';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="lg:px-28 px-16 py-4 lg:py-8">
+      <NavBar />
+      <MainBody/>
+      <Footer />
     </div>
   );
 }
